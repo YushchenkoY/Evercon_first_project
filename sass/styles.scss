@@ -1,6 +1,7 @@
 @import "variables.scss";
 @import "container.scss";
 @import "header.scss";
+@import "filter.scss";
 
 * {
     font-family: Helvetica, sans-serif;
@@ -15,7 +16,8 @@
     text-align: center;
 }
 
-a {
+a,
+button {
     text-decoration: none;
     cursor: pointer;
 }
