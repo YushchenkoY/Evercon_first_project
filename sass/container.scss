@@ -1,0 +1,19 @@
+.container {
+    width: 330px;
+
+    @media (min-width: $breakpoint-s) {
+        width: 540px;
+    }
+
+    @media (min-width: $breakpoint-m) {
+        width: 720px;
+    }
+
+    @media (min-width: $breakpoint-l) {
+        width: 960px;
+    }
+
+    @media (min-width: $breakpoint-xl) {
+        width: 1170px;
+    }
+}
