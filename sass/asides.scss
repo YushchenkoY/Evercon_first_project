@@ -1,4 +1,4 @@
-.filter__wrapper {
+.filter-wrapper {
     display: none;
     height: 78px;
     background: #FFFED0;
@@ -79,13 +79,12 @@
 
 
 .women-online__info {
-    display: none !important;
+    display: none;
     width: 100%;
     height: 50px;
     font-weight: normal;
     font-size: 18px;
     line-height: 50px;
-    display: flex;
     align-items: center;
     text-align: center;
     color: #000000;
@@ -100,8 +99,8 @@
     }
 }
 
-@media (min-width: $breakpoint-l) {
-    .filter__wrapper {
+@media (min-width: $breakpoint-m) {
+    .filter-wrapper {
         display: flex;
     }
 

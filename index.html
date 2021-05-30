@@ -10,15 +10,23 @@
 </head>
 
 <body>
-    <header class="site-header__wrapper">
+    <header class="site-header-wrapper">
         <div class="site-header container">
             <div class="site-header__text">2409 women online</div>
             <a href="" class="site-header__logo"><img src="./img/luckydate-logo.png" alt=""></a>
-            <div class="site-header__girls-online">
-                <img class="site-header__girl" src="./img/women_online/photo_1.png" alt="">
-                <img class="site-header__girl" src="./img/women_online/photo_2.png" alt="">
-                <img class="site-header__girl" src="./img/women_online/photo_3.png" alt="">
-                <img class="site-header__girl" src="./img/women_online/photo_4.png" alt="">
+            <div class="site-header__girls">
+                <div class="site-header__girl-wrapper">
+                    <img class="site-header__girl-img" src="./img/women_online/photo_1.png" alt="">
+                </div>
+                <div class="site-header__girl-wrapper">
+                    <img class="site-header__girl-img" src="./img/women_online/photo_2.png" alt="">
+                </div>
+                <div class="site-header__girl-wrapper">
+                    <img class="site-header__girl-img" src="./img/women_online/photo_3.png" alt="">
+                </div>
+                <div class="site-header__girl-wrapper">
+                    <img class="site-header__girl-img" src="./img/women_online/photo_4.png" alt="">
+                </div>
             </div>
             <div class="site-header__login login">
                 <button class="login__btn btn--green">Join Now</button>
@@ -26,12 +34,12 @@
             </div>
         </div>
     </header>
-    <aside class="filter__wrapper">
-        <div class="filter container">
+    <aside class="filter-wrapper">
+        <form class="filter container">
             <p class="filter__title">Search for Your Matches</p>
             <div class="filter__options">
                 <span class="filter__text ages">Ages:</span>
-                <select size="1" name="" id="" class="age-from">
+                <select size="1" name="" id="" class="filter__age-from">
                     <option selected="" value="18">18</option>
                     <option value="20">20</option>
                     <option value="25">25</option>
@@ -47,7 +55,7 @@
                     <option value="75">75</option>
                 </select>
                 <span class="filter__text dash"> — </span>
-                <select size="1" name="" id="" class="age-to">
+                <select size="1" name="" id="" class="filter__age-to">
                     <option value="18">18</option>
                     <option value="20">20</option>
                     <option value="25">25</option>
@@ -61,44 +69,43 @@
                     <option value="65">65</option>
                     <option value="70">70</option>
                     <option selected="" value="75">75</option>
-
                 </select>
                 <input type="checkbox" class="filter__text online"><label for=""> Online</label>
             </div>
-            <button class="btn--pink">Show Matches</button>
-        </div>
+            <button class="filter__btn btn--pink">Show Matches</button>
+        </form>
     </aside>
     <p class="women-online__info">Meet <b>2082</b> online Members now!</p>
     <main class="container gallery">
         <div class="gallery__item">
-            <img class="gallery__item_card" src="./img/gallery_cards/woman_1.png" alt="">
-            <p class="gallery__item_info ">Alex,22</p>
-            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+            <img class="gallery__item-card" src="./img/gallery_cards/woman_1.png" alt="">
+            <p class="gallery__item-short-info ">Alex,22</p>
+            <button class="gallery__item-btn btn--green"><p>Start chat</p></button>
         </div>
         <div class="gallery__item">
-            <img class="gallery__item_card" src="./img/gallery_cards/woman_2.png" alt="">
-            <p class="gallery__item_info ">Alex,22</p>
-            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+            <img class="gallery__item-card" src="./img/gallery_cards/woman_2.png" alt="">
+            <p class="gallery__item-short-info ">Alex,22</p>
+            <button class="gallery__item-btn btn--green"><p>Start chat</p></button>
         </div>
         <div class="gallery__item">
-            <img class="gallery__item_card" src="./img/gallery_cards/woman_3.png" alt="">
-            <p class="gallery__item_info ">Alex,22</p>
-            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+            <img class="gallery__item-card" src="./img/gallery_cards/woman_3.png" alt="">
+            <p class="gallery__item-short-info ">Alex,22</p>
+            <button class="gallery__item-btn btn--green"><p>Start chat</p></button>
         </div>
         <div class="gallery__item">
-            <img class="gallery__item_card" src="./img/gallery_cards/woman_1.png" alt="">
-            <p class="gallery__item_info ">Alex,22</p>
-            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+            <img class="gallery__item-card" src="./img/gallery_cards/woman_1.png" alt="">
+            <p class="gallery__item-short-info ">Alex,22</p>
+            <button class="gallery__item-btn btn--green"><p>Start chat</p></button>
         </div>
         <div class="gallery__item">
-            <img class="gallery__item_card" src="./img/gallery_cards/woman_2.png" alt="">
-            <p class="gallery__item_info ">Alex,22</p>
-            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+            <img class="gallery__item-card" src="./img/gallery_cards/woman_2.png" alt="">
+            <p class="gallery__item-short-info ">Alex,22</p>
+            <button class="gallery__item-btn btn--green"><p>Start chat</p></button>
         </div>
         <div class="gallery__item">
-            <img class="gallery__item_card" src="./img/gallery_cards/woman_3.png" alt="">
-            <p class="gallery__item_info ">Alex,22</p>
-            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+            <img class="gallery__item-card" src="./img/gallery_cards/woman_3.png" alt="">
+            <p class="gallery__item-short-info ">Alex,22</p>
+            <button class="gallery__item-btn btn--green"><p>Start chat</p></button>
         </div>
     </main>
     <aside class="button-at-the-bottom">
@@ -111,13 +118,7 @@
         <p class="signup-title">Meet Beautiful <b>Russian Woman</b>
          Sign up in a few seconds</p>
          <div class="signup-form">
-       
-           <select>
-            <option value="">Man Seeking a Woman</option>
-            <option value="">Man Seeking a Man</option>
-            <option value="">Woman Seeking a Man</option>
-            <option value="">Woman Seeking a Woman</option>
-          </select>
+
        
           <form class="registration-form current" novalidate="">
        
