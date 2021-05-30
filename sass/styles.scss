@@ -1,7 +1,8 @@
 @import "variables.scss";
 @import "container.scss";
 @import "header.scss";
-@import "filter.scss";
+@import "asides.scss";
+@import "main.scss";
 
 * {
     font-family: Helvetica, sans-serif;
@@ -28,3 +29,46 @@ body {
     color: black;
 }
 
+.btn--pink{
+    width: 175px;
+    height: 38px;
+    background: linear-gradient(180deg, #F44077 0%, #DC144E 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 38px;
+    color: #FEFEFE;
+
+    &:hover {
+        background: #DC144E;
+    }
+
+}
+.btn--green{
+    width: 100px;
+    height: 26px;
+    border-radius: 11px;
+    width: 175px;
+    height: 47px;
+    background: linear-gradient(to bottom, #a4d81d, #85b11a);
+    ;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    font-size: 18px;
+    line-height: 26px;
+
+    &:hover {
+        background: #85b11a;
+    }
+}
+
+@media (min-width: $breakpoint-m) {
+    .btn--green{
+        border-radius: 8px ;
+        width: 175px;
+        height: 47px;
+        line-height: 47px;
+    }
+}

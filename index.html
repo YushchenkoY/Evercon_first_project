@@ -21,7 +21,7 @@
                 <img class="site-header__girl" src="./img/women_online/photo_4.png" alt="">
             </div>
             <div class="site-header__login login">
-                <button class="login__btn">Join Now</button>
+                <button class="login__btn btn--green">Join Now</button>
                 <p class="login__text">Alredy a Member? <a>Log in</a></p>
             </div>
         </div>
@@ -31,7 +31,7 @@
             <p class="filter__title">Search for Your Matches</p>
             <div class="filter__options">
                 <span class="filter__text ages">Ages:</span>
-                <select name="" id="" class="age-from">
+                <select size="1" name="" id="" class="age-from">
                     <option selected="" value="18">18</option>
                     <option value="20">20</option>
                     <option value="25">25</option>
@@ -43,10 +43,11 @@
                     <option value="55">55</option>
                     <option value="60">60</option>
                     <option value="65">65</option>
+                    <option value="70">70</option>
                     <option value="75">75</option>
                 </select>
-                <span class="filter__text dash"> - </span>
-                <select name="" id="" class="age-to">
+                <span class="filter__text dash"> — </span>
+                <select size="1" name="" id="" class="age-to">
                     <option value="18">18</option>
                     <option value="20">20</option>
                     <option value="25">25</option>
@@ -58,17 +59,130 @@
                     <option value="55">55</option>
                     <option value="60">60</option>
                     <option value="65">65</option>
+                    <option value="70">70</option>
                     <option selected="" value="75">75</option>
 
                 </select>
-                <input type="checkbox" class="filter__text online"><label for="">Online</label>
+                <input type="checkbox" class="filter__text online"><label for=""> Online</label>
             </div>
-            <button class="filter__btn">Show Matches</button>
+            <button class="btn--pink">Show Matches</button>
         </div>
-
     </aside>
-    <main>
+    <p class="women-online__info">Meet <b>2082</b> online Members now!</p>
+    <main class="container gallery">
+        <div class="gallery__item">
+            <img class="gallery__item_card" src="./img/gallery_cards/woman_1.png" alt="">
+            <p class="gallery__item_info ">Alex,22</p>
+            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+        </div>
+        <div class="gallery__item">
+            <img class="gallery__item_card" src="./img/gallery_cards/woman_2.png" alt="">
+            <p class="gallery__item_info ">Alex,22</p>
+            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+        </div>
+        <div class="gallery__item">
+            <img class="gallery__item_card" src="./img/gallery_cards/woman_3.png" alt="">
+            <p class="gallery__item_info ">Alex,22</p>
+            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+        </div>
+        <div class="gallery__item">
+            <img class="gallery__item_card" src="./img/gallery_cards/woman_1.png" alt="">
+            <p class="gallery__item_info ">Alex,22</p>
+            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+        </div>
+        <div class="gallery__item">
+            <img class="gallery__item_card" src="./img/gallery_cards/woman_2.png" alt="">
+            <p class="gallery__item_info ">Alex,22</p>
+            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+        </div>
+        <div class="gallery__item">
+            <img class="gallery__item_card" src="./img/gallery_cards/woman_3.png" alt="">
+            <p class="gallery__item_info ">Alex,22</p>
+            <button class="gallery__item_btn btn--green"><p>Start chat</p></button>
+        </div>
     </main>
+    <aside class="button-at-the-bottom">
+        <button class="btn--pink">Show More</button>
+    </aside>
+
+
+    <div class="signup-popup fadeInDown animated" style="top: 0px; display: block;">
+        <div class="close-btn">x</div>
+        <p class="signup-title">Meet Beautiful <b>Russian Woman</b>
+         Sign up in a few seconds</p>
+         <div class="signup-form">
+       
+           <select>
+            <option value="">Man Seeking a Woman</option>
+            <option value="">Man Seeking a Man</option>
+            <option value="">Woman Seeking a Man</option>
+            <option value="">Woman Seeking a Woman</option>
+          </select>
+       
+          <form class="registration-form current" novalidate="">
+       
+            <div class="message unknown-error">Server error.</div>
+       
+       
+            <div class="field">
+             <div class="input-style">
+              <input autofocus="autofocus" name="first-name" class="txt" placeholder="Name or Nickname" required="required">
+              <div class="message invalid-required">First name required.</div>
+            </div>
+       
+          </div>
+       
+       
+          <div class="field">
+           <div class="input-style">
+            <input id="email" class="txt" name="email" placeholder="Your Email" required="required" pattern="^\s*[\w\.-]+(\+[\w-]*)?@([\w-]+\.)+[\w-]+\s*$">
+            <div class="message invalid-required">Email required.</div>
+            <div class="message invalid-pattern">Email invalid.</div>
+            <div class="message exists">E-mail is already in use.</div>
+       
+          </div>
+       
+        </div>
+       
+       
+        <div class="field">
+       
+          <input type="password" name="password" placeholder="Password (must be 6+ symbols)" autocomplete="off" required="required" pattern="^\s*.{6,}?\s*$">
+       
+          <div class="message invalid-required">Please enter your password.</div>
+          <div class="message invalid-pattern">Invalid password.</div>
+        </div>
+       
+       
+        <button type="submit" class="next next-reg ">
+          Join Now
+       
+        </button>
+        <div class="or">or</div>
+        <div class="google-btn" data-google=""><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 48 48" class="abcRioButtonSvg"><g><path fill="#EA4335" d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z"></path><path fill="#4285F4" d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z"></path><path fill="#FBBC05" d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z"></path><path fill="#34A853" d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z"></path><path fill="none" d="M0 0h48v48H0z"></path></g></svg>Sign in via Google</div>
+       
+        <div id="circularG2">
+          <div id="circularG_1" class="circularG"></div>
+          <div id="circularG_2" class="circularG"></div>
+          <div id="circularG_3" class="circularG"></div>
+          <div id="circularG_4" class="circularG"></div>
+          <div id="circularG_5" class="circularG"></div>
+          <div id="circularG_6" class="circularG"></div>
+          <div id="circularG_7" class="circularG"></div>
+          <div id="circularG_8" class="circularG"></div>
+        </div>
+       </form>
+       <div id="underform">
+       
+       
+        <p>By clicking "Join Now" you agree with the <span class="terms_p">Terms</span> and <span class="pp_p">Privacy</span></p>
+       </div>
+       </div>
+       
+       </div>
+
+
+
 </body>
 
 </html>
