@@ -1,9 +1,4 @@
 .container {
-    width: 95%;
-    @media (min-width: $breakpoint-m) {
-        width: 720px;
-    }
-
     @media (min-width: $breakpoint-l) {
         width: 960px;
     }
