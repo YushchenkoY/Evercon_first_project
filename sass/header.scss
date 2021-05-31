@@ -1,7 +1,10 @@
 .site-header-wrapper {
     width: 100vw;
     height: 65px;
-    background: linear-gradient(180deg, rgb(127, 182, 252), rgb(55, 141, 251) 100%);
+    background-image: url(../img/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center top;
     display: flex;
     justify-content: center;
     align-items: center;

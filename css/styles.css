@@ -13,7 +13,10 @@
 .site-header-wrapper {
   width: 100vw;
   height: 65px;
-  background: linear-gradient(180deg, #7fb6fc, #378dfb 100%);
+  background-image: url(../img/header-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center top;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +114,7 @@
 .filter-wrapper {
   display: none;
   height: 78px;
-  background: #FFFED0; }
+  background: #D2D2D2; }
 
 .filter {
   display: flex;
@@ -179,7 +182,7 @@
   .women-online__info b {
     color: #000000 !important; }
 
-.button-at-the-bottom .btn--pink {
+.button-at-the-bottom .btn--two {
   margin: 35px auto; }
 
 @media (min-width: 768px) {
@@ -363,7 +366,8 @@
   text-align: center; }
 
 a,
-button {
+button,
+.open-modal {
   text-decoration: none;
   cursor: pointer; }
 
@@ -372,19 +376,19 @@ body {
   line-height: 1;
   color: black; }
 
-.btn--pink {
+.btn--two {
   width: 175px;
   height: 38px;
-  background: linear-gradient(180deg, #F44077 0%, #DC144E 100%);
+  background: linear-gradient(180deg, #7E6BA7 0%, #885CF0 100%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 5px;
   font-size: 18px;
   line-height: 38px;
   color: #FEFEFE; }
-  .btn--pink:hover {
-    background: #DC144E; }
+  .btn--two:hover {
+    background: #885CF0; }
 
-.btn--green {
+.btn--one {
   width: 100px;
   height: 26px;
   border-radius: 11px;
@@ -395,11 +399,11 @@ body {
   border-radius: 8px;
   font-size: 18px;
   line-height: 26px; }
-  .btn--green:hover {
+  .btn--one:hover {
     background: #85b11a; }
 
 @media (min-width: 768px) {
-  .btn--green {
+  .btn--one {
     border-radius: 8px;
     width: 176px;
     height: 47px;

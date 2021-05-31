@@ -1,7 +1,7 @@
 .filter-wrapper {
     display: none;
     height: 78px;
-    background: #FFFED0;
+    background: #D2D2D2;
 }
 
 .filter {
@@ -31,7 +31,6 @@
 
     select {
         display: inline-block;
-        // background: #FFFFFF;
         border: 1px solid #D2D2D2;
         box-sizing: border-box;
         border-radius: 5px;
@@ -94,7 +93,7 @@
 }
 
 .button-at-the-bottom {
-    .btn--pink {
+    .btn--two {
         margin: 35px auto;
     }
 }
