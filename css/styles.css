@@ -238,6 +238,9 @@
   bottom: 30px;
   left: calc(50% - 50px); }
 
+.gallery__item-btn--big {
+  display: none; }
+
 @media (min-width: 768px) {
   .gallery__item {
     width: 320px;
@@ -247,7 +250,11 @@
     height: 458px; }
   .gallery__item-btn {
     bottom: 20px;
-    left: calc(50% - 88px); } }
+    left: calc(50% - 88px); }
+  .gallery__item-btn--big {
+    display: block; }
+  .gallery__item-btn--small {
+    display: none; } }
 
 @media (min-width: 992px) {
   .gallery {
